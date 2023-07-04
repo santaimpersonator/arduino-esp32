@@ -72,4 +72,10 @@ static const uint8_t DAC2 = 26;
 
 static const uint8_t LED_BUILTIN = 2;
 
+// Backward compatibility with SPI library
+#define PIN_SPI_SS   SS   
+#define PIN_SPI_MOSI MOSI
+#define PIN_SPI_MISO MISO
+#define PIN_SPI_SCK  SCK
+
 #endif /* Pins_Arduino_h */
